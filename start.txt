@@ -1,2 +1,0 @@
-Test Git Quick Start Demo
-This is an edit using visual studio code.
