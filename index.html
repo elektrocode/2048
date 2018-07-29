@@ -4,26 +4,28 @@
 <head>
     <meta charset="utf-8" />
     <title>FlattyBird</title>
+    
+    <!-- Local Stylesheets -->
     <link href="styles/main.css" rel="stylesheet" />
 </head>
 
 <body>
 
-    <div id="container">
+    <div id="container"> <!-- Outside Border -->
 
-        <div id="bird"></div>
+        <div id="bird"></div> <!-- Bird sprite -->
 
-        <div id="pole_1" class="pole"></div>
-        <div id="pole_2" class="pole"></div>
+        <div id="pole_1" class="pole"></div> <!-- Top pole -->
+        <div id="pole_2" class="pole"></div> <!-- Bottom pole -->
 
     </div>
 
-    <div id="score_div">
+    <div id="score_div"> <!-- Score board -->
         <p><b>Score: </b><span id="score">0</span></p>
         <p><b>Speed: </b><span id="speed">10</span></p>
     </div>
 
-    <button id="restart_btn">Restart</button>
+    <button id="restart_btn">Restart</button> <!-- Resets the game -->
 
     <script src="scripts/jquery.min.js"></script>
     <script src="scripts/main.js"></script>

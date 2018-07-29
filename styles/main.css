@@ -5,40 +5,41 @@ body {
 }
 
 #container {
-    position: relative;
+    position: relative !important; /* Do not change */
     height: 400px;
     width: 90%;
     border: 2px solid red;
     background-color: aliceblue;
-    margin-left: 4%;
+    margin-left: 4%; /* to position at centre of the screen */
     overflow: hidden;
 }
 
 #bird {
-    position: absolute;
+    position: absolute !important; /* Do not change */
     background: url('/media/images/bird.png');
     height: 42px;
     width: 65px;
     background-size: contain;
     background-repeat: no-repeat;
+    /* Deal with bird position */
     top: 20%;
     left: 15%;
 }
 
 .pole {
-    position: absolute;
+    position: absolute !important; /* Do not change */
     height: 130px;
     width: 50px;
     background-color: red;
-    right: -50px;
+    right: -50px; /* Hides the poles on the initial screen */
 }
 
 #pole_1 {
-    top: 0;
+    top: 0; /* positions the pole at the top portion of the screen */
 }
 
 #pole_2 {
-    bottom: 0;
+    bottom: 0; /* positions the pole at the bottom of the screen */
 }
 
 #score_div {
@@ -56,5 +57,5 @@ body {
     font-size: 35px;
     border: none;
     cursor: pointer;
-    display: none;
+    display: none; /* hides the reset button at the initial screen */
 }
