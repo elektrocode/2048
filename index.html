@@ -1,34 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <title>FlattyBird</title>
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flappy Bird Game </title>
+
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
     <!-- Local Stylesheets -->
     <link href="styles/main.css" rel="stylesheet" />
+
 </head>
 
-<body>
+<body class="background">
 
-    <div id="container"> <!-- Outside Border -->
-
-        <div id="bird"></div> <!-- Bird sprite -->
-
-        <div id="pole_1" class="pole"></div> <!-- Top pole -->
-        <div id="pole_2" class="pole"></div> <!-- Bottom pole -->
-
+    <div class="title">
+        <h1>
+            <b>
+                <u>Flappy Flat Bird</u>
+            </b>
+        </h1>
+    </div>
+    <br />
+    <br />
+    <div class="menu">
+        <a href="game.html">
+            <div class="menu-item">Start</div>
+        </a>
+        <a href="#">
+            <div class="menu-item" data-toggle="modal" data-target="#instructionsModal">Instructions</div>
+        </a>
+        <a href="#">
+            <div class="menu-item" data-toggle="modal" data-target="#creditsModal">Credits</div>
+        </a>
     </div>
 
-    <div id="score_div"> <!-- Score board -->
-        <p><b>Score: </b><span id="score">0</span></p>
-        <p><b>Speed: </b><span id="speed">10</span></p>
+    <!-- Instructions Modal -->
+    <div class="modal fade" id="instructionsModal" tabindex="-1" role="dialog" aria-labelledby="instructionsModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="instructionsModalTitle">How to play the game</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <button id="restart_btn">Restart</button> <!-- Resets the game -->
+    <!-- Credits Modal -->
+    <div class="modal fade" id="creditsModal" tabindex="-1" role="dialog" aria-labelledby="creditsModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="creditsModalTitle">Credits</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <script src="scripts/jquery.min.js"></script>
-    <script src="scripts/main.js"></script>
+
+    <!-- External Javascript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
 </body>
 
