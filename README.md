@@ -15,7 +15,7 @@ The project was a learning exercise to learn about javascript, through the use o
 ### Tutorial Source
 * [YouTube] (https://www.youtube.com/watch?v=Wrzr-QBVNNM&t=3s)
 
-### Sourse Code
+### Source Code
 * [GitHub] (https://github.com/arshadasgar/flattybird)
 
 ## Original Author
