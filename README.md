@@ -4,7 +4,7 @@ A simple web equivelant of the popular Flappy Bird game.
 
 ## Description
 
-The project was a learning exercise to learn about javascript, through the use of an YouTube tutorial provided by 
+The project was a learning exercise on understanding javascript, through the guidance of a YouTube tutorial. That was further expanded and customised.
 
 ## How To Play
 * The bird is controlled by using the space bar. The user needs to continously press it in order to give the bird elevated otherwise it will start to decend.
