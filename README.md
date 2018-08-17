@@ -21,9 +21,6 @@ The project was a learning exercise on understanding javascript, through the gui
 ## Original Author
 * Arshad Muhammed 
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
 ## Version History
 * 0.3 
     * Game Menu Added
