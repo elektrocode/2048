@@ -2,6 +2,10 @@
 
 A simple web equivelant of the popular Flappy Bird game.
 
+## Have A Go 
+
+ https://elektrocode.github.io/Flappy_Flatty_Bird/
+
 ## Description
 
 The project was a learning exercise on understanding javascript, through the guidance of a YouTube tutorial. That was further expanded and customised.
