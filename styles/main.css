@@ -97,7 +97,7 @@ body {
 
 #bird {
     position: absolute !important; /* Do not change */
-    background: url('../../../media/images/bird.png');
+    background: url('../media/images/bird.png');
     height: 42px;
     width: 65px;
     background-size: contain;
