@@ -1,61 +1,34 @@
-# Project Title
+# Flappy Flatty Bird
 
-Simple overview of use/purpose.
+A simple web equivelant of the popular Flappy Bird game.
+
+## Have A Go 
+
+ https://elektrocode.github.io/Flappy_Flatty_Bird/
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+The project was a learning exercise on understanding javascript, through the guidance of a YouTube tutorial. That was further expanded and customised.
 
-## Getting Started
+## How To Play
+* The bird is controlled by using the space bar. The user needs to continously press it in order to give the bird elevated otherwise it will start to decend.
+* The aim of the game is to maneuver the bird through the gaps in the wall. 
+* For every wall you sucessfully pass through, you will be awarded a point.
+* For every wall you pass through, the speed will increase giving you less time to maneuver.
 
-### Dependencies
+### Tutorial Source
+* [YouTube] (https://www.youtube.com/watch?v=Wrzr-QBVNNM&t=3s)
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+### Source Code
+* [GitHub] (https://github.com/arshadasgar/flattybird)
 
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+## Original Author
+* Arshad Muhammed 
 
 ## Version History
-
+* 0.3 
+    * Game Menu Added
 * 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
+    * Responsive Design Incorportation
 * 0.1
     * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
